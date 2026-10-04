@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UniPortal</string>
+
+    <!-- List / search -->
+    <string name="list_subtitle">Университеты мира</string>
+    <string name="search_placeholder">Например, Harvard или Moscow</string>
+    <string name="search_latin_hint">Каталог понимает только латиницу: Moscow, а не Москва</string>
+    <string name="action_load_more">Загрузить ещё</string>
+    <string name="load_more_error">Не удалось загрузить следующую страницу</string>
+    <string name="list_end">Показаны все результаты</string>
+    <string name="empty_search_title">Ничего не найдено</string>
+    <string name="empty_search_message">Попробуйте другой запрос или страну. Название вводите латиницей.</string>
+    <string name="action_reset_filters">Сбросить поиск</string>
+    <string name="refresh_error">Не удалось обновить список</string>
+    <string name="filter_favourites_only">Только избранные</string>
+    <string name="empty_favourites_only_title">Среди загруженных результатов нет избранных</string>
+    <string name="empty_favourites_only_message">Выключите фильтр, чтобы увидеть все результаты и отметить нужные сердечком.</string>
+    <string name="empty_favourites_only_message_more">Избранные могут найтись на следующих страницах. Или выключите фильтр, чтобы увидеть все результаты.</string>
+    <string name="favourites_only_footer">Показаны избранные среди загруженных результатов</string>
+    <string name="favourites_only_list_end">Это все избранные среди результатов</string>
+    <string name="action_show_all">Показать все</string>
+    <string name="badge_overflow">99+</string>
+    <plurals name="cd_applications_badge">
+        <item quantity="one">%1$d заявка требует внимания</item>
+        <item quantity="few">%1$d заявки требуют внимания</item>
+        <item quantity="many">%1$d заявок требуют внимания</item>
+        <item quantity="other">%1$d заявки требуют внимания</item>
+    </plurals>
+
+    <!-- Countries -->
+    <string name="country_all">Все страны</string>
+    <string name="country_russia">Россия</string>
+    <string name="country_kazakhstan">Казахстан</string>
+    <string name="country_belarus">Беларусь</string>
+    <string name="country_uzbekistan">Узбекистан</string>
+    <string name="country_usa">США</string>
+    <string name="country_uk">Великобритания</string>
+    <string name="country_germany">Германия</string>
+    <string name="country_france">Франция</string>
+    <string name="country_china">Китай</string>
+    <string name="country_japan">Япония</string>
+    <string name="country_south_korea">Южная Корея</string>
+    <string name="country_turkiye">Турция</string>
+    <string name="country_canada">Канада</string>
+
+    <!-- Detail -->
+    <string name="detail_open_website">Открыть сайт</string>
+    <string name="detail_section_websites">Сайты</string>
+    <string name="detail_section_domains">Домены</string>
+    <string name="detail_section_country_code">Код страны</string>
+    <string name="detail_no_websites">Сайт не указан</string>
+    <string name="action_go_back">Вернуться</string>
+    <string name="error_open_link">Не удалось открыть ссылку</string>
+
+    <!-- Favourites -->
+    <plurals name="universities_count">
+        <item quantity="one">%1$d университет</item>
+        <item quantity="few">%1$d университета</item>
+        <item quantity="many">%1$d университетов</item>
+        <item quantity="other">%1$d университета</item>
+    </plurals>
+    <string name="favourites_empty_title">Здесь пока пусто</string>
+    <string name="favourites_empty_message">Нажмите на сердечко на карточке университета, и он появится здесь.</string>
+    <string name="favourites_removed">Убрано из избранного</string>
+    <string name="favourites_filter_placeholder">Название, домен или страна (англ.)</string>
+    <string name="favourites_filter_latin_hint">Фильтр работает по латинице: Moscow, Russia или RU — а не Москва, Россия</string>
+    <string name="favourites_no_matches_title">Совпадений нет</string>
+    <string name="favourites_no_matches_message">В избранном нет университетов, подходящих под фильтр.</string>
+    <string name="action_reset_filter">Сбросить фильтр</string>
+    <string name="action_back_to_search">К поиску</string>
+    <string name="action_undo">Отменить</string>
+
+    <!-- History -->
+    <string name="history_title">История</string>
+    <string name="history_day_today">Сегодня</string>
+    <string name="history_day_yesterday">Вчера</string>
+    <string name="history_viewed_at">Просмотрено в %1$s</string>
+    <string name="history_removed">Убрано из истории</string>
+    <string name="history_empty_title">История пуста</string>
+    <plurals name="history_empty_message">
+        <item quantity="one">Открывайте карточки университетов — здесь сохранится последний %1$d просмотр.</item>
+        <item quantity="few">Открывайте карточки университетов — здесь сохранятся последние %1$d просмотра.</item>
+        <item quantity="many">Открывайте карточки университетов — здесь сохранятся последние %1$d просмотров.</item>
+        <item quantity="other">Открывайте карточки университетов — здесь сохранятся последние %1$d просмотра.</item>
+    </plurals>
+    <plurals name="history_limit_caption">
+        <item quantity="one">Хранится последний %1$d просмотр · лимит меняется в настройках</item>
+        <item quantity="few">Хранятся последние %1$d просмотра · лимит меняется в настройках</item>
+        <item quantity="many">Хранятся последние %1$d просмотров · лимит меняется в настройках</item>
+        <item quantity="other">Хранятся последние %1$d просмотра · лимит меняется в настройках</item>
+    </plurals>
+    <string name="history_clear_title">Очистить историю?</string>
+    <string name="history_clear_message">Все просмотренные университеты будут удалены из истории. Избранное останется без изменений.</string>
+    <string name="action_clear">Очистить</string>
+    <string name="action_cancel">Отмена</string>
+
+    <!-- States -->
+    <string name="state_loading">Открываем портал…</string>
+    <string name="action_retry">Повторить</string>
+    <string name="error_network_title">Нет соединения</string>
+    <string name="error_network_message">Проверьте подключение к интернету и попробуйте ещё раз.</string>
+    <string name="error_server_title">Ошибка сервера</string>
+    <string name="error_server_message">Сервис университетов ответил ошибкой. Попробуйте чуть позже.</string>
+    <string name="error_not_found_title">Университет не найден</string>
+    <string name="error_not_found_message">Портал ведёт в пустоту: такого домена нет в каталоге.</string>
+    <string name="error_unknown_title">Что-то пошло не так</string>
+    <string name="error_unknown_message">Произошла непредвиденная ошибка. Попробуйте ещё раз.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_deadlines">Дедлайны заявок</string>
+    <string name="notification_channel_deadlines_description">Напоминания о приближающихся дедлайнах поступления</string>
+    <string name="notification_deadline_single">Дедлайн %1$s — проверьте документы в разделе «Заявки»</string>
+    <string name="notification_deadline_line">%1$s — %2$s</string>
+    <string name="notification_when_today">сегодня</string>
+    <string name="notification_when_tomorrow">завтра</string>
+    <plurals name="notification_when_in_days">
+        <item quantity="one">через %1$d день</item>
+        <item quantity="few">через %1$d дня</item>
+        <item quantity="many">через %1$d дней</item>
+        <item quantity="other">через %1$d дня</item>
+    </plurals>
+    <plurals name="notification_deadlines_title">
+        <item quantity="one">Скоро %1$d дедлайн</item>
+        <item quantity="few">Скоро %1$d дедлайна</item>
+        <item quantity="many">Скоро %1$d дедлайнов</item>
+        <item quantity="other">Скоро %1$d дедлайна</item>
+    </plurals>
+    <string name="notification_deadlines_more">и ещё %1$d</string>
+
+    <!-- Navigation -->
+    <string name="nav_search">Поиск</string>
+    <string name="nav_lists">Списки</string>
+    <string name="nav_applications">Заявки</string>
+    <string name="nav_more">Ещё</string>
+
+    <!-- Search: offline-first -->
+    <string name="search_banner_offline">Офлайн · обновлено %1$s</string>
+    <string name="search_banner_no_connection">Нет связи с каталогом · обновлено %1$s</string>
+    <string name="search_banner_refresh_failed">Каталог не ответил · обновлено %1$s</string>
+    <string name="search_banner_local_catalog">Результаты из офлайн-каталога</string>
+    <string name="search_banner_local_catalog_offline">Офлайн · результаты из офлайн-каталога</string>
+    <string name="load_more_offline">Следующие страницы загружаются только при подключении к интернету</string>
+    <string name="local_catalog_list_end">Это все совпадения в офлайн-каталоге</string>
+    <plurals name="shortlist_mark">
+        <item quantity="one">в %1$d списке</item>
+        <item quantity="few">в %1$d списках</item>
+        <item quantity="many">в %1$d списках</item>
+        <item quantity="other">в %1$d списка</item>
+    </plurals>
+
+    <!-- Relative time -->
+    <string name="time_just_now">только что</string>
+    <string name="time_minutes_ago">%1$d мин назад</string>
+    <string name="time_hours_ago">%1$d ч назад</string>
+    <string name="time_today_at">сегодня в %1$s</string>
+    <string name="time_yesterday_at">вчера в %1$s</string>
+    <string name="time_date_at">%1$s в %2$s</string>
+
+    <!-- Application statuses and priorities -->
+    <string name="status_interested">Интересно</string>
+    <string name="status_preparing">Готовлю документы</string>
+    <string name="status_submitted">Подано</string>
+    <string name="status_waitlisted">Лист ожидания</string>
+    <string name="status_accepted">Принят</string>
+    <string name="status_rejected">Отказ</string>
+    <string name="status_interested_description">Присматриваюсь: изучаю программы и требования.</string>
+    <string name="status_preparing_description">Собираю документы и готовлю заявку.</string>
+    <string name="status_submitted_description">Заявка отправлена — жду ответа университета.</string>
+    <string name="status_waitlisted_description">Я в листе ожидания: решение ещё может измениться.</string>
+    <string name="status_accepted_description">Меня приняли! Поздравляем 🎉</string>
+    <string name="status_rejected_description">Университет ответил отказом.</string>
+    <string name="priority_low">Низкий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_high">Высокий</string>
+    <string name="priority_pill">Приоритет: %1$s</string>
+
+    <!-- Deadlines -->
+    <string name="deadline_passed">Дедлайн прошёл</string>
+    <string name="deadline_today">Дедлайн сегодня</string>
+    <string name="deadline_tomorrow">Дедлайн завтра</string>
+    <plurals name="deadline_days_left">
+        <item quantity="one">Остался %1$d день</item>
+        <item quantity="few">Осталось %1$d дня</item>
+        <item quantity="many">Осталось %1$d дней</item>
+        <item quantity="other">Осталось %1$d дня</item>
+    </plurals>
+    <plurals name="deadline_overdue_days">
+        <item quantity="one">Просрочено на %1$d день</item>
+        <item quantity="few">Просрочено на %1$d дня</item>
+        <item quantity="many">Просрочено на %1$d дней</item>
+        <item quantity="other">Просрочено на %1$d дня</item>
+    </plurals>
+
+    <!-- Detail: personal data -->
+    <string name="detail_updated_at">Обновлено %1$s</string>
+    <string name="detail_refreshing">Обновляем данные…</string>
+    <string name="detail_refresh_failed">Не удалось обновить</string>
+    <string name="detail_add_to_shortlist">В список</string>
+    <string name="detail_section_application">Моя заявка</string>
+    <string name="detail_application_empty">Отмечайте этап поступления, дедлайн и заметки — приложение напомнит о сроках заранее.</string>
+    <string name="detail_add_application">Добавить в заявки</string>
+    <string name="detail_deadline">Дедлайн: %1$s</string>
+    <string name="detail_no_deadline">Дедлайн не указан</string>
+    <string name="detail_next_status">Дальше: %1$s</string>
+    <string name="detail_section_shortlists">Шорт-листы</string>
+    <string name="detail_shortlists_empty">Университет пока не добавлен ни в один ваш список.</string>
+    <string name="detail_shortlists_cleared">Убрано из всех списков</string>
+    <plurals name="detail_shortlists_saved">
+        <item quantity="one">Сохранено: в %1$d списке</item>
+        <item quantity="few">Сохранено: в %1$d списках</item>
+        <item quantity="many">Сохранено: в %1$d списках</item>
+        <item quantity="other">Сохранено: в %1$d списка</item>
+    </plurals>
+    <string name="detail_status_changed">Статус заявки: %1$s</string>
+    <string name="settings_unavailable">Не удалось прочитать настройки — используются значения по умолчанию</string>
+    <string name="applications_status_change_failed">Не удалось сохранить статус заявки</string>
+    <string name="error_save_failed">Не удалось сохранить изменения</string>
+
+    <!-- Shortlist picker -->
+    <string name="shortlist_dialog_title">Добавить в список</string>
+    <string name="shortlist_dialog_empty">Списков пока нет — создайте первый ниже.</string>
+    <string name="shortlist_dialog_new_label">Новый список</string>
+    <string name="shortlist_dialog_new_placeholder">Например, Мечта</string>
+    <string name="shortlist_dialog_create_and_save">Создать и сохранить</string>
+    <string name="shortlist_error_name_empty">Введите название списка</string>
+    <string name="shortlist_error_name_too_long">Название — не длиннее 40 символов</string>
+    <string name="shortlist_error_name_duplicate">Список с таким названием уже есть</string>
+    <string name="shortlist_error_description_too_long">Описание — не длиннее 200 символов</string>
+    <string name="shortlist_error_not_found">Список не найден: возможно, он уже удалён</string>
+    <string name="text_counter">%1$d / %2$d</string>
+
+    <!-- Application editor -->
+    <string name="editor_title_new">Новая заявка</string>
+    <string name="editor_title_edit">Заявка</string>
+    <string name="editor_section_status">Статус</string>
+    <string name="editor_section_deadline">Дедлайн</string>
+    <string name="editor_section_priority">Приоритет</string>
+    <string name="editor_section_note">Заметка</string>
+    <string name="editor_no_deadline">Дедлайн не выбран. Укажите его — и приложение заранее напомнит о сроке.</string>
+    <string name="editor_pick_deadline">Выбрать дату</string>
+    <string name="editor_change_deadline">Изменить дату</string>
+    <string name="editor_clear_deadline">Убрать</string>
+    <string name="editor_priority_hint">Заявки с высоким приоритетом стоят выше при одинаковых дедлайнах.</string>
+    <string name="editor_note_placeholder">Документы, требования, контакты приёмной комиссии…</string>
+    <string name="editor_meta">Создана %1$s · изменена %2$s</string>
+    <string name="editor_create">Добавить заявку</string>
+    <string name="editor_save">Сохранить</string>
+    <string name="editor_delete_title">Удалить заявку?</string>
+    <string name="editor_delete_message">Статус, дедлайн и заметка будут удалены. Университет останется в избранном и в ваших списках.</string>
+    <string name="editor_discard_title">Выйти без сохранения?</string>
+    <string name="editor_discard_message">Изменения в заявке не сохранятся.</string>
+    <string name="editor_discard_confirm">Выйти</string>
+    <string name="editor_discard_stay">Остаться</string>
+    <string name="application_error_note_too_long">Заметка — не длиннее 1000 символов</string>
+    <string name="application_error_priority">Выберите приоритет от 1 до 3</string>
+
+    <!-- Common actions -->
+    <string name="action_add">Добавить</string>
+    <string name="action_change">Изменить</string>
+    <string name="action_done">Готово</string>
+    <string name="action_choose">Выбрать</string>
+    <string name="action_delete">Удалить</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_back">Назад</string>
+    <string name="cd_refresh">Обновить</string>
+    <string name="cd_clear_history">Очистить историю</string>
+    <string name="cd_remove_from_history">Убрать из истории</string>
+    <string name="cd_add_favourite">Добавить в избранное</string>
+    <string name="cd_remove_favourite">Убрать из избранного</string>
+    <string name="cd_clear_search">Очистить поиск</string>
+    <string name="cd_clear_filter">Очистить фильтр</string>
+    <string name="cd_create_shortlist">Создать список</string>
+    <string name="cd_edit_application">Изменить заявку</string>
+    <string name="cd_delete_application">Удалить заявку</string>
+    <string name="cd_close">Закрыть</string>
+
+    <!-- Common -->
+    <string name="label_with_count">%1$s · %2$d</string>
+    <string name="action_create">Создать</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_download">Скачать</string>
+    <string name="action_allow">Разрешить</string>
+
+    <!-- Lists tab -->
+    <string name="lists_title">Мои списки</string>
+    <string name="lists_subtitle">Избранное и шорт-листы</string>
+    <string name="lists_tab_favourites">Избранное</string>
+    <string name="lists_tab_shortlists">Шорт-листы</string>
+    <string name="shortlists_empty_title">Шорт-листов пока нет</string>
+    <string name="shortlists_empty_message">Собирайте университеты в тематические списки: «Мечта», «Запасные», «Сильная математика». Добавлять в список можно и на странице университета.</string>
+    <string name="action_new_shortlist">Новый список</string>
+    <string name="shortlist_updated_at">Изменён %1$s</string>
+    <string name="shortlist_created">Список «%1$s» создан</string>
+
+    <!-- Shortlist form -->
+    <string name="shortlist_form_create_title">Новый список</string>
+    <string name="shortlist_form_edit_title">Изменить список</string>
+    <string name="shortlist_form_name_label">Название</string>
+    <string name="shortlist_form_emoji_label">Значок</string>
+    <string name="shortlist_form_description_label">Описание (необязательно)</string>
+    <string name="shortlist_form_description_placeholder">Например, сильные программы по информатике</string>
+    <string name="cd_shortlist_emoji">Значок %1$s</string>
+
+    <!-- Shortlist screen -->
+    <string name="shortlist_available_offline">Доступен офлайн</string>
+    <string name="shortlist_empty_title">В списке пока пусто</string>
+    <string name="shortlist_empty_message">Найдите университет, откройте его страницу и нажмите «В список» — он появится здесь.</string>
+    <string name="shortlist_item_added">Добавлен %1$s</string>
+    <string name="shortlist_item_removed">Убрано из списка</string>
+    <string name="shortlist_saved">Список сохранён</string>
+    <string name="shortlist_not_found_title">Список не найден</string>
+    <string name="shortlist_not_found_message">Возможно, он был удалён на другом экране.</string>
+    <string name="shortlist_delete_title">Удалить список?</string>
+    <string name="shortlist_delete_message">Список «%1$s» будет удалён. Университеты останутся в каталоге, избранном и заявках.</string>
+    <string name="cd_remove_from_shortlist">Убрать из списка</string>
+    <string name="cd_edit_shortlist">Изменить список</string>
+    <string name="cd_delete_shortlist">Удалить список</string>
+
+    <!-- Applications tab -->
+    <string name="applications_title">Мои заявки</string>
+    <string name="applications_subtitle">Планировщик поступления</string>
+    <plurals name="applications_word">
+        <item quantity="one">заявка</item>
+        <item quantity="few">заявки</item>
+        <item quantity="many">заявок</item>
+        <item quantity="other">заявки</item>
+    </plurals>
+    <string name="applications_overdue">Просрочено: %1$d</string>
+    <string name="applications_due_soon">Скоро дедлайн: %1$d</string>
+    <string name="applications_nearest_deadline">Ближайший дедлайн</string>
+    <string name="applications_no_upcoming">Ближайших дедлайнов нет — всё под контролем</string>
+    <string name="applications_filter_all">Все</string>
+    <string name="applications_deadline_on">Дедлайн %1$s</string>
+    <string name="applications_no_deadline">Без дедлайна</string>
+    <string name="applications_high_priority">Высокий приоритет</string>
+    <string name="applications_status_menu_title">Сменить статус</string>
+    <string name="applications_empty_title">Заявок пока нет</string>
+    <string name="applications_empty_message">Откройте страницу университета и нажмите «Добавить в заявки» — здесь появятся этапы поступления, дедлайны и заметки.</string>
+    <string name="applications_no_matches_title">Нет заявок с этим статусом</string>
+    <string name="applications_no_matches_message">Выберите другой статус или покажите все заявки.</string>
+    <string name="cd_change_status">Сменить статус заявки</string>
+    <string name="cd_open_university">Страница университета</string>
+
+    <!-- More tab -->
+    <string name="more_title">Ещё</string>
+    <string name="more_dashboard_title">Мой план поступления</string>
+    <string name="more_dashboard_subtitle">Всё хранится на устройстве и доступно без интернета</string>
+    <string name="more_stat_favourites">Избранное</string>
+    <string name="more_stat_shortlists">Шорт-листы</string>
+    <string name="more_stat_applications">Заявки</string>
+    <string name="more_stat_offline">На устройстве</string>
+    <string name="more_stat_active">активных: %1$d</string>
+    <string name="more_history">История</string>
+    <plurals name="more_history_count">
+        <item quantity="one">%1$d просмотр</item>
+        <item quantity="few">%1$d просмотра</item>
+        <item quantity="many">%1$d просмотров</item>
+        <item quantity="other">%1$d просмотра</item>
+    </plurals>
+    <string name="more_history_empty">Недавно просмотренные университеты</string>
+    <string name="more_offline">Офлайн-каталог</string>
+    <plurals name="more_offline_countries">
+        <item quantity="one">Скачана %1$d страна</item>
+        <item quantity="few">Скачано %1$d страны</item>
+        <item quantity="many">Скачано %1$d стран</item>
+        <item quantity="other">Скачано %1$d страны</item>
+    </plurals>
+    <string name="more_offline_empty">Скачайте страны для поиска без интернета</string>
+    <string name="more_settings">Настройки</string>
+    <string name="more_settings_subtitle">Тема, синхронизация, напоминания</string>
+    <string name="more_about">О приложении</string>
+    <string name="more_version">Версия %1$s</string>
+    <string name="about_message">Планировщик поступления: поиск университетов мира, шорт-листы, заявки с дедлайнами и напоминаниями, офлайн-каталог стран.</string>
+    <string name="about_data_source">Данные: открытый каталог Hipo University Domains (universities.hipolabs.com).</string>
+    <string name="about_version">Версия %1$s (сборка %2$d)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_section_appearance">Оформление</string>
+    <string name="theme_portal">Портал</string>
+    <string name="theme_portal_hint">тёмная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_system">Системная</string>
+    <string name="settings_section_search">Поиск</string>
+    <string name="settings_home_country">Страна по умолчанию</string>
+    <string name="settings_home_country_hint">С неё начинается поиск при запуске приложения</string>
+    <string name="settings_section_data">Данные и синхронизация</string>
+    <string name="settings_cache_ttl">Срок свежести данных</string>
+    <string name="settings_cache_ttl_hint">Более старые данные обновляются из сети, когда вы их открываете</string>
+    <string name="ttl_6h">6 ч</string>
+    <string name="ttl_24h">24 ч</string>
+    <string name="ttl_3d">3 дня</string>
+    <string name="ttl_7d">7 дней</string>
+    <string name="settings_background_sync">Фоновая синхронизация</string>
+    <string name="settings_background_sync_hint">Раз в 12 часов обновляет избранное, списки и заявки и чистит старый кэш</string>
+    <string name="settings_wifi_only">Только по Wi-Fi</string>
+    <string name="settings_wifi_only_hint">Не расходовать мобильный трафик</string>
+    <string name="settings_sync_now">Синхронизировать сейчас</string>
+    <string name="settings_last_sync">Последняя синхронизация: %1$s</string>
+    <string name="settings_never_synced">Синхронизация ещё не выполнялась</string>
+    <string name="sync_state_waiting">Ожидает подключения к сети…</string>
+    <string name="sync_state_running">Синхронизация…</string>
+    <string name="sync_state_succeeded">Готово: обновлено %1$d, удалено из кэша %2$d</string>
+    <string name="sync_state_partial">Готово: обновлено %1$d, не удалось обновить %2$d</string>
+    <string name="sync_state_failed">Не удалось синхронизироваться — попробуйте позже</string>
+    <string name="settings_offline_catalog">Офлайн-каталог</string>
+    <string name="settings_offline_catalog_hint">Скачайте страны для поиска без интернета</string>
+    <string name="settings_clear_cache">Очистить кэш</string>
+    <string name="settings_clear_cache_hint">Избранное, списки, заявки, история и скачанные страны сохранятся</string>
+    <string name="settings_clear_cache_title">Очистить кэш?</string>
+    <string name="settings_clear_cache_message">Будут удалены сохранённые результаты поиска и университеты, которые нигде не отмечены. Избранное, шорт-листы, заявки, история и офлайн-каталог останутся.</string>
+    <plurals name="settings_cache_cleared">
+        <item quantity="one">Кэш очищен: удалена %1$d запись</item>
+        <item quantity="few">Кэш очищен: удалено %1$d записи</item>
+        <item quantity="many">Кэш очищен: удалено %1$d записей</item>
+        <item quantity="other">Кэш очищен: удалено %1$d записи</item>
+    </plurals>
+    <string name="settings_sync_failed_to_start">Не удалось запустить синхронизацию</string>
+    <string name="settings_section_reminders">Напоминания</string>
+    <string name="settings_deadline_reminders">Напоминать о дедлайнах</string>
+    <string name="settings_deadline_reminders_hint">Каждое утро проверяет заявки, которые ещё не поданы</string>
+    <string name="settings_reminder_days">Предупреждать за</string>
+    <plurals name="days_count">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <string name="settings_notifications_denied">Уведомления для приложения выключены — напоминания не придут</string>
+    <string name="settings_section_history">История</string>
+    <string name="settings_history_limit">Сколько просмотров хранить</string>
+    <string name="settings_history_limit_hint">Более старые просмотры удаляются автоматически</string>
+
+    <!-- Offline catalogue -->
+    <string name="offline_title">Офлайн-каталог</string>
+    <string name="offline_intro_title">Поиск без интернета</string>
+    <string name="offline_intro_message">Скачайте все университеты страны — поиск по ней будет работать без сети. Повторная загрузка обновит данные.</string>
+    <string name="offline_on_device">На устройстве: %1$s</string>
+    <string name="offline_no_network">Нет сети: загрузка начнётся, когда появится подключение</string>
+    <string name="offline_section_downloaded">Скачанные страны</string>
+    <string name="offline_section_available">Скачать страну</string>
+    <string name="offline_no_downloads">Пока ничего не скачано — выберите страну ниже.</string>
+    <string name="offline_all_downloaded">Все страны из списка уже скачаны.</string>
+    <string name="offline_country_meta">%1$s · скачано %2$s</string>
+    <string name="offline_waiting">Ожидает сети…</string>
+    <string name="offline_running">Загружено: %1$d</string>
+    <string name="offline_failed">Не удалось скачать</string>
+    <string name="offline_remove_title">Удалить из офлайн-каталога?</string>
+    <string name="offline_remove_message">Страна «%1$s» больше не будет считаться скачанной. Университеты останутся в кэше, пока их не очистит синхронизация, но поиск без сети может стать неполным.</string>
+    <string name="cd_cancel_download">Отменить загрузку</string>
+    <string name="cd_update_country">Скачать заново</string>
+    <string name="cd_remove_country">Удалить из офлайн-каталога</string>
+</resources>
