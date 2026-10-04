@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window-level theme: keeps the splash/window dark before Compose draws the first frame. -->
+    <style name="Theme.UniPortal" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorBackground">@color/portal_background</item>
+        <item name="android:windowBackground">@color/portal_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/portal_background</item>
+    </style>
+</resources>
